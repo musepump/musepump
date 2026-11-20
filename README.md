@@ -1,16 +1,19 @@
-## Hi there 👋
+# musepump — Bug Bounty Hunter
 
-<!--
-**musepump/musepump** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Independent security researcher hunting smart-contract bugs in DeFi and pre-mainnet protocols.
 
-Here are some ideas to get you started:
+## Focus
+- Lending & perps protocols — margin, liquidation, and accounting invariants
+- Oracle & pricing faults, rounding and unit mismatches
+- Access control, cross-market composition, hostile-token edge cases
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Method
+- Local, reproducible Foundry PoC before any report — no speculation, no scanner dumps
+- One report per fault, with measured impact and a concrete remediation
+- Responsible disclosure only, through each program's official channel
+
+## Tooling
+Foundry · Slither · cast
+
+---
+*First reports, proven locally. Findings stay private until the program clears disclosure.*
